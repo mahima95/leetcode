@@ -24,3 +24,6 @@ public class Codec {
         return map.get(shortUrl.replace("http://tinyurl.com/", ""));
     }
 }
+
+
+//https://leetcode.com/articles/encode-and-decode-tinyurl/
