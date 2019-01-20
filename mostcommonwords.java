@@ -20,3 +20,14 @@ P.S.
 Python is faster. 
 
 Fin.
+
+            
+            You can go the other way round. Replace everything that is not word characters, using negated character class:
+
+message = message.replaceAll("[^\\w]", "");
+or
+
+message = message.replaceAll("\\W", "");
+Both of them will replace the characters apart from [a-zA-Z0-9_]. If you want to replace the underscore too, then use:
+
+[\\W_]
